@@ -27,23 +27,11 @@ function clickHandler () {
         .catch(errorHandler);
 };
 
-// function hoverHandler () {
-//     // var inputText =txtInput.value + "!"
-//     txtInput.value=txtInput.value + "!"
-// }
 
-// function keypressHandler() {
-//     const r = Math.floor(Math.random() * 256);
-//     const g = Math.floor(Math.random() * 256);
-//     const b = Math.floor(Math.random() * 256);
-//     document.body.style.backgroundColor="rgb(" + r + "," + g + "," + b + ")";
-// }
 
 // NOTE: click is predefined
 btnTranslate.addEventListener ("click", clickHandler)
-// btnTranslate.addEventListener ("mouseover", hoverHandler)
-// document.addEventListener ("mouseover", hoverHandler)
-// document.addEventListener ("keypress", keypressHandler)
+
 
 
 
