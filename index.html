@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferb Latin</title>
+    <script src="app.js" type="text/javascript" defer></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+        body {
+            height: 100vh;
+            background-image: url("images/ferb.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            padding:3rem;
+            color:white;
+            text-decoration: 2px dashed #834732;
+            font-size: 34px;
+        }
+        textarea {
+            width:30% ;
+            height: 10vh;
+            display: block ;
+            margin: 1rem 2rem;
+            padding: 2rem;
+            background-color: white;
+            color:black;
+            font-size: 1rem;
+            border-style: dashed;
+        }
+        #txt-input {
+            align-content: center;
+        }
+        #btn-translate {
+            border: 0.5px solid #834732 ;
+            background-color: white;
+            padding:0.5rem;
+            margin:2rem 14rem;
+            font-size: 1rem;
+            color:grey;
+            
+        }
+        #output {
+            border: 1px solid grey;
+            height: 10vh;
+            width:30%;
+            display: block ;
+            margin: 1rem 2rem;
+            padding: 2rem;
+            background-color: white;
+            text-align: left;
+            color: black;
+            font-family: 'Open Sans', sans-serif;
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+<body>
+        <h1>FERB LATIN TRANSLATOR</h1>
+        <textarea
+        id="txt-input" 
+        placeholder="put your sentence in english here, we will convert it to minions language ;)"></textarea>
+        <button id="btn-translate"><strong>click me</strong></button>
+        <div id="output"></div>  
+    
+
+    <!-- <script src="app.js" type="text/javascript"></script> -->
+</body>
+</html>
